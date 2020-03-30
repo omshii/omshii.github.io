@@ -1,1 +1,1 @@
-# omshii.github.io
+# omshi.me

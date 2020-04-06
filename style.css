@@ -1,0 +1,65 @@
+/*Color palette
+bg - #2a2a2a
+- #ee3433 - red
+- #fa394d - pink
+- #e97c00 - orange
+- #edcd00 - yellow
+- #e4ea52 - lime
+- #00b960 - green
+- #95d237 - green-lime
+- #408ade - blue
+- #6fcad0 - blue-green
+*/
+
+body
+{
+  background-color: #2a2a2a;
+  margin:10%;
+  color: #eee8d5;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.4em;
+  font-style: normal;
+}
+
+a
+{
+  color: #eee8d5;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.red-hl
+{
+  color: #ee3433;
+}
+
+.lime-green-hl
+{
+  color: #95d237;
+}
+
+.yellow-hl
+{
+  color: #edcd00;
+}
+
+.orange-hl
+{
+  color: #e97c00
+}
+
+.blue-green-hl
+{
+  color: #6fcad0;
+}
+
+.lime-hl
+{
+  color: #e4ea52;
+}
+
+.links
+{
+  text-decoration: wavy underline;
+}

@@ -1,0 +1,24 @@
+---
+---
+
+<head>
+
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Omshi Samal</title>
+
+</head>
+
+<h1 class="blue-green-hl">Blog</h1>
+<br>
+
+<div>
+  {% for post in site.posts %}
+    <div>
+      <h3><a href="{{ post.url }}" class="lime-hl links">{{ post.title }}</a></h3>
+      <i>{{ post.date | date: "%-d %B %Y"}}</i>
+      {{ post.content | strip_html | truncatewords: 50 }}
+    <div>
+    <br>
+  {% endfor %}
+</div>

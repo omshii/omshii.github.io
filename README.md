@@ -1,3 +1,3 @@
 # omshi.me
 
-personal website/blog
+personal website/blog/portfolio
